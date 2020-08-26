@@ -1,1 +1,2 @@
-# X6
+# Elenore
+Elenore - Multi-use Discord Bot.
