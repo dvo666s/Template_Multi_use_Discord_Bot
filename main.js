@@ -1,15 +1,15 @@
 const Discord = require('discord.js')
 const client = new Discord.Client();
-// توكن البوت
+// Bot token
 var token = "NzQ4MDEzNjg1NjMyNDAxNDA4.X0XQCA.ncmt-UVArVB_1xRFgnbCEfoUkMk";
-// الاختصار المستخدم في الاوامر
+// The abbreviation used in the commands
 const prefix = "!";
-// نشاط البوت
+// Bot activity
 var activity = prefix + "help";
-// حالة البوت
+// Bot status
 var status = "dnd";
 /**
-* @param {Discord.Message} message The received message
+* {Discord.Message} message The received message
 */
 async function onMessage(message)
 {
